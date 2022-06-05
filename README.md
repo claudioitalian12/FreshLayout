@@ -62,3 +62,24 @@
    make.left.constraint(backgroundView.fresh.bottom.multiplier(0.8), relation: equal)
   }
   ```
+  
+  
+- Creation syntax: you can use different method to easy set more constraints with only 1 declaration.
+  
+  - [x] Create constraint with:
+
+    - [x] anchorTo
+    - [x] centerTo
+
+    
+  ```swift
+  titleLabel.fresh.makeContraints { make in
+  make.anchorTo(boundsOf: view)
+  }
+  ```
+  
+  ```swift
+  titleLabel.fresh.makeContraints { make in
+  make.centerTo(boundsOf: view)
+  }
+  ```
