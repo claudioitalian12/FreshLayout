@@ -60,6 +60,7 @@
    make.top.constraint(backgroundView.fresh.top, relation: equal)
    make.bottom.constraint(backgroundView.fresh.bottom.constant(20.0), relation: equal)
    make.left.constraint(backgroundView.fresh.bottom.multiplier(0.8), relation: equal)
+   make.height.constraint(200, relation: equal)
   }
   ```
   
@@ -81,5 +82,23 @@
   ```swift
   titleLabel.fresh.makeContraints { make in
    make.centerTo(boundsOf: view)
+  }
+  ```
+  
+- Overloading operator: for improve your code speed.
+  
+  - [x] Create constraint with .constraint():
+
+    - [x] == equal to 
+    - [x] <= less to
+    - [x] >= great to
+    - [x] + add constant
+    - [x] * add multiplier
+
+    
+  ```swift
+  titleLabel.fresh.makeContraints { make in
+   make.top <= backgroundView.fresh.top + 10.0
+   make.height == 100
   }
   ```
