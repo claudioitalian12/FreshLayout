@@ -11,9 +11,14 @@
 
 ## 2. How to use
 
-  - Set Constraints: you can use different method to set constraints to a view.
+- Set Constraints: you can use different method to set constraints to a view.
   
-  
+   - [x] Set Constraints with:
+
+    - [x] makeContraints
+    - [x] remakeContraints
+    - [x] updateContraints
+
   Set constraints for a view that haven't constraints:
   
   ```swift
@@ -41,7 +46,7 @@
   ```
   
   
-  - Creation syntax: you can use different method to create constraints to a view.
+- Creation syntax: you can use different method to create constraints to a view.
   
   - [x] Create constraint with .constraint():
 
