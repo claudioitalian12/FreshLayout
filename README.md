@@ -1,7 +1,7 @@
 # FreshLayout
  FreshLayout SPM
 
-## 1. Futures
+- [x] Features.
 
   - [x] Property Wrapper
   - [x] Result Builder
