@@ -11,7 +11,7 @@
 
 ## 2. How to use
 
-  - [x] Set Constraints: you can use different method to set constraints to a view.
+  - Set Constraints: you can use different method to set constraints to a view.
   
   
   Set constraints for a view that haven't constraints:
@@ -41,13 +41,13 @@
   ```
   
   
-  - [x] Creation syntax: you can use different method to create constraints to a view.
+  - Creation syntax: you can use different method to create constraints to a view.
   
   - [x] Create constraint with .constraint():
 
-  - [x] default
-  - [x] constant
-  - [x] multiplier
+    - [x] default
+    - [x] constant
+    - [x] multiplier
 
   ```swift
   titleLabel.fresh.makeContraints { make in
