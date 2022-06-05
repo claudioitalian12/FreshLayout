@@ -74,12 +74,12 @@
     
   ```swift
   titleLabel.fresh.makeContraints { make in
-  make.anchorTo(boundsOf: view)
+   make.anchorTo(boundsOf: view)
   }
   ```
   
   ```swift
   titleLabel.fresh.makeContraints { make in
-  make.centerTo(boundsOf: view)
+   make.centerTo(boundsOf: view)
   }
   ```
