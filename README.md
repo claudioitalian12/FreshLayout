@@ -42,10 +42,13 @@
   
   
   - [x] Creation syntax: you can use different method to create constraints to a view.
+  
+  - [x] Create constraint with .constraint():
 
-  
-  Create constraint with .constraint():
-  
+  - [x] default
+  - [x] constant
+  - [x] multiplier
+
   ```swift
   titleLabel.fresh.makeContraints { make in
    make.top.constraint(backgroundView.fresh.top, relation: equal)
