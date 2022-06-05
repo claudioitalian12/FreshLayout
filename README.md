@@ -11,3 +11,10 @@
 
 ### 2. How to use
 
+  - [x] Set Constraints: you can use different method to set constraints to a view.
+  
+  ```swift
+  titleLabel.fresh.makeContraints { make in
+   make.anchorTo(boundsOf: view)
+  }
+  ```
