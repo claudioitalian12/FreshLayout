@@ -14,6 +14,7 @@
 - Set Constraints: you can use different method to set constraints to a view.
   
    - [x] Set Constraints with:
+    
      - [x] makeContraints
      - [x] remakeContraints
      - [x] updateContraints
