@@ -102,3 +102,15 @@
    make.height == 100
   }
   ```
+
+## 3. Animation
+
+You can use updateContraints for UIView.animate():
+
+  ```swift
+  titleLabel.fresh.updateContraints { make in
+   make.anchorTo(boundsOf: view)
+  }
+  ```
+  
+remember to use view.layoutIfNeeded() inside the block.
